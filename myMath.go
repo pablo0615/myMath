@@ -14,3 +14,8 @@ func Div(a, b int) (int, error) {
     }
     return a / b, nil
 }
+
+func Pow(a, b float64) float64 {
+    return math.Pow(a, b)
+}
+

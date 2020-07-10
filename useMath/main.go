@@ -13,6 +13,8 @@ func main() {
     } else {
         fmt.Println(div)
     }
+    pow := gm.Pow(3, 4)
+    fmt.Println(pow)
 }
 
 /*****************************************
