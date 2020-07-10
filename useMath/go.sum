@@ -12,3 +12,5 @@ github.com/pablo0615/myMath v1.1.2 h1:zLD5MU9RmItzsWYvNKAK1rqUSI2pqgRs9BATR2Ee3q
 github.com/pablo0615/myMath v1.1.2/go.mod h1:vbBylchtcOx/eF7H5pg9vRb7EgIJuk8dGr+ULmX7fcs=
 github.com/pablo0615/myMath v1.1.3 h1:13y+OsNrEsMtfzKci+LhoLcFrRdUyZLGsX+tIDRVOmY=
 github.com/pablo0615/myMath v1.1.3/go.mod h1:vbBylchtcOx/eF7H5pg9vRb7EgIJuk8dGr+ULmX7fcs=
+github.com/pablo0615/myMath/v2 v2.0.0 h1:6ZcqaZW1eDZNTRPM+Lu3zF94QgDZP/G8Pqup3jiaRtM=
+github.com/pablo0615/myMath/v2 v2.0.0/go.mod h1:+V+xrcT58zgPvO9BYb5ScuRAHnlk9wz0MflBuOVhTyg=

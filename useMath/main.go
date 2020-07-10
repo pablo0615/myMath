@@ -3,10 +3,11 @@ package main
 import (
     "fmt"
     gm "github.com/pablo0615/myMath"
+    gmv2 "github.com/pablo0615/myMath/v2"
     )
 
 func main() {
-    add := gm.Add(1, 2)
+    add := gmv2.Add(1, 2, 3, 4, 5, 6)
     fmt.Println(add)
     if div, err := gm.Div(40, 5); err != nil {
         fmt.Println(err)
@@ -20,7 +21,7 @@ func main() {
 /*****************************************
 
     $ go run main.go
-    3
+    21 
     8
     81
 
