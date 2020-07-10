@@ -1,6 +1,6 @@
 // myMath.go - myMath module
 package myMath
-import "errors"
+import ("errors"; "math")
 
 func Add(a, b int) int { return a + b }
 
