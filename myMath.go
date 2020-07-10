@@ -13,3 +13,4 @@ func Div(a, b int) (int, error) {
         return 0, errors.New("Divide by zero illegal")
     }
     return a / b, nil
+}
