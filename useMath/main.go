@@ -6,10 +6,13 @@ import (
     )
 
 func main() {
-    add := gm.Add(1 ,2)
+    add := gm.Add(1, 2)
     fmt.Println(add)
-    mult := gm.Div(40, 5)
-    fmt.Println(mult)
+    if div, err := gm.Div(40, 5); err != nil {
+        fmt.Println(err)
+    } else {
+        fmt.Println(div)
+    }
 }
 
 /*****************************************
